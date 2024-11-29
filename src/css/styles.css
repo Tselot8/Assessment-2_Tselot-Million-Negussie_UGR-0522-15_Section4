@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    align-items: center;
+    line-height: 1.5;
+}
+body header h1 {
+    padding-left: 50px;
+}
+body header nav {
+    width: 800px;
+    align-content: left;
+}
+body header nav ul {
+    list-style-type: none;
+    margin: 0;
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    right: -5px;
+}
+body header nav ul a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    transition: linear 0.5s;
+    padding: 10px;
+    background-color: rgb(94, 152, 228);
+    border-radius: 10px;
+    border: 5px solid rgb(68, 66, 66);
+}
+body header nav ul a:hover {
+    background-color: rgb(58, 173, 125);
+}
+footer {
+    display: flex;
+    color: white;
+    background-color: rgb(58, 53, 53);
+    padding-left: 200px;
+}
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    width: 60%;
+    display: flex;
+    position: relative;
+    left: 200px;
+}
+footer nav ul a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+footer nav a {
+    background-color: rgb(58, 53, 53);
+    padding: 10px;
+    width: 130px;
+}
+h3 {
+    color: rgb(66, 106, 158);
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.container2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.justify {
+    padding-left: 150px;
+    padding-top: 10px;
+}
+.edit {
+    width: 1500px;
+}
+.edit2 {
+    width: 330px;
+}
+.edit3 {
+    height: 70px;
+    width: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.edit4 {
+    width: 450px;
+}
+.editAboutUs {
+    width: 508px;
+}
+.edit1AboutUs {
+    width: 1490px;
+}
+.aside {
+    height: 70px;
+    width: 70px;
+    float: left;
+    padding-right: 5px;
+}
+.coloring {
+    color: white;
+    font-family: sans-serif;
+    background-color: rgb(68, 66, 66);
+    padding-left: 150px;
+}
+.color {
+    background-color: rgb(68, 66, 66);
+}
+.image {
+    width: 320px;
+    height: 150px;
+    border: 7px solid whitesmoke;
+    border-radius: 4px;
+}
+.fix {
+    background-color: rgb(58, 173, 125);
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+button {
+    margin-bottom: 5px;
+}
+form input, textarea {
+    width: 500px;
+    resize: none;
+}
+form textarea {
+    height: 200px;
+}
+.white {
+    color: white;
+}
+
